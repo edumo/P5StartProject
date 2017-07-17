@@ -1,0 +1,12 @@
+mvn install:install-file -DgroupId=org.processing -DartifactId=TUIO -Dversion=1.0 -Dpackaging=jar -Dfile=./src/main/lib/TUIOP5.jar
+mvn install:install-file -DgroupId=ani -DartifactId=ani -Dversion=2.7 -Dpackaging=jar -Dfile=./src/main/lib/Ani.jar
+mvn install:install-file -DgroupId=oscP5 -DartifactId=oscP5 -Dversion=1.0 -Dpackaging=jar -Dfile=./src/main/lib/oscP5.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=net -Dversion=1.0 -Dpackaging=jar -Dfile=./src/main/lib/net.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=jai_core -Dversion=1.0 -Dpackaging=jar -Dfile=./src/main/lib/jai_core.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=gifAnimation -Dversion=1.0 -Dpackaging=jar -Dfile=./src/main/lib/gifAnimation.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=slf4j-nop -Dversion=1.0 -Dpackaging=jar -Dfile=./src/main/lib/slf4j-nop-1.7.2.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=core -Dversion=2.2.1 -Dpackaging=jar -Dfile=./src/main/lib/core.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=gluegen-rt-main -Dversion=2.2.1 -Dpackaging=jar -Dfile=./src/main/lib/gluegen-rt.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=gluegen-linux -Dversion=2.2.1 -Dpackaging=jar -Dfile=./src/main/lib/gluegen-rt-natives-linux-amd64.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=jogl-all-main -Dversion=2.2.1 -Dpackaging=jar -Dfile=./src/main/lib/jogl-all.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=jogl-linux -Dversion=2.2.1 -Dpackaging=jar -Dfile=./src/main/lib/jogl-all-natives-linux-amd64.jar
