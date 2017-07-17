@@ -1,6 +1,6 @@
 # P5StartProject
 
-P5 start project with maven
+P5 2.2.1 start project with maven
 
 **Start**
 
