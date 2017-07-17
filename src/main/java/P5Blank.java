@@ -1,4 +1,5 @@
 import org.apache.log4j.Logger;
+import org.edumo.util.TracingPrintStream;
 
 import processing.core.PApplet;
 import processing.core.PImage;
@@ -10,7 +11,9 @@ public class P5Blank extends PApplet {
 
 	Logger logger = Logger.getLogger(this.getClass());
 	
-	public void setup() {		
+	public void setup() {
+		System.setOut(new TracingPrintStream(System.out));
+		System.setErr(new TracingPrintStream(System.err));
 		println("setup");
 		size(1024, 768,P3D);
 		logger.info("Blank PRject started");
@@ -26,6 +29,9 @@ public class P5Blank extends PApplet {
 	}
 	
 	public void mousePressed() {
+		
+		println("salida estandar");
+		logger.info("saida por logger");
 
 	}
 
